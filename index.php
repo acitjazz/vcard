@@ -13,6 +13,7 @@
         <meta name="keywords" content="ACITJAZZ, VCARD" />
         <meta name="author" content="ACIT JAZZ" />
       	<link rel="shortcut icon" href="images/favicon.png"> 
+        <link href="http://fonts.googleapis.com/css?family=Cabin+Sketch:bold" rel="stylesheet" type="text/css" />
         <link rel="stylesheet" type="text/css" href="vendor/bootstrap/css/bootstrap.css" />
         <link rel="stylesheet" type="text/css" href="css/animate.css" />
         <link rel="stylesheet" type="text/css" href="css/timeline.css" />
@@ -31,8 +32,11 @@
     	<?php  include("header.php"); ?>
         <?php  include("home.php"); ?>
     	<?php  include("footer.php"); ?>
+        <script src="vendor/waypoints.min.js"></script>
 		<script src="vendor/wowanimate/wow.js"></script>
         <script src="vendor/owlcarousel/owl.carousel.min.js"></script>
+        <script src="vendor/counterUp/jquery.counterup.js" type="text/javascript"></script>
+        <script src="vendor/jquery.stellar.js"></script>
 		<script src="vendor/custom.js"></script>
     </body>
 </html>

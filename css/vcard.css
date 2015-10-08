@@ -89,7 +89,7 @@ a:hover,a:active,a:focus{
 body{
 	font-weight: 400;
 	font-size: 14px;
-	color: #262626;
+	color: #303e49;
 }
 .section{
 	padding:80px 0;
@@ -102,7 +102,7 @@ body{
 /* ========================= HEADER ========================= */
 #header{
 	overflow:hidden;
-	background:url(../content/banner/banner.jpg) no-repeat;
+	background:url(../images/bg_header.jpg) no-repeat;
 	background-size:cover;
 }
 .headerbar{
@@ -110,169 +110,67 @@ body{
 }
 .headercontent{
 	position:absolute;
-	bottom:10%;
+	top:20%;
 	color:#fff;
 	text-align:center;
 	width:100%;
 	left:0;
 }
-.scrolldown{
+.headercontent h1{	
+	font-weight:600;
+	font-size: 40px;
+	margin: 20px 0 5px 0
+}
+.headercontent h3{
+	font-weight: 300;
+}
+.social,.callaction{
+	padding: 30px 0;
+}
+.social i:before{
+	width:40px; height:40px; line-height:40px;
+	text-align:center;
+	color:#333;
+	border-radius:100px;
 	display:inline-block;
-	width:70px; height:70px;
-	border:solid 2px #fff;
-	border-radius:200px;
-	margin:150px 0 0 0;
-	color:#fff;
-}
-.scrolldown:hover{
-	color:#1695e1;
-	border:solid 2px #1695e1;
-}
-.scrolldown i:before{
-	line-height:70px; display:inline-block;
 	vertical-align:top;
-	width:66px; height:50px;
-	font-size:24px;
-	text-align:center;
+	background: #fff;
+	margin: 0 5px;
+	
 }
-.headercontent h1{
-	font-weight:300;
-}
-#logo{
-	float:left;
-}
-#nav{
-	position:relative;
-	text-align:center;
-	float:right;
-}
-#nav li{
-	display:inline-block;
-	float:left;
-}
-#nav a{
-	padding:0 15px;
-	color:#fff;
-	display:block;
-	vertical-align:top;
-	font-size:16px;
-	position:relative;
-	line-height:50px;
-	overflow:hidden;
-}
-#nav a:hover{
-	text-decoration:none;
-	color:#fff;
-}
-#nav li>a:after{
-	content:'';
-	width:0;
-	height: 2px;
-	border-bottom:solid 2px #1695e1;
-	position:absolute;
-	left:0;
-}
-#nav li li>a:after{
-	display:none;
-}
-#nav li:hover>a:after{
-	bottom:0;
-	width:100%;
-	-webkit-transition: all 0.3s ease-in-out;
-	-moz-transition: all 0.3s ease-in-out;
-	-o-transition: all 0.3s ease-in-out;
-	-ms-transition: all 0.3s ease-in-out
-}
-#nav li li{
-	margin:0;
-	border:none;
-	border-bottom:solid 2px #666;
-	text-align:left;
-}
-#nav li li a{
-	background:#e4e4e4;
-}
-#menu{
-	text-align:center;
-	display:inline-block;
+.social a:hover i:before{
+	background:#263839;
+	color: #fff;
 }
 /* ========================= CONTENT ========================= */
 .entry{
 	padding:40px 0;
 }
 .the-title{
-	font-size:50px;
-	font-weight:300;
+	font-size: 40px;
+	font-weight:600;
 	margin:0 0 20px 0;
 }
 .center-title{
 	padding:30px 0;
-	max-width:800px;
+	max-width:1000px;
 	margin:0 auto;
+	text-align: center;
 }
-#section1 .entry{
-	text-align:right;
+#experience{
+	background: #bbcdcd;
 }
-#section2{
-	background-image:url(../images/leather.jpg);
-	background-repeat:repeat;
-	color:#fff;
-	box-shadow:0 1px 200px rgba(0,0,0,0.7) inset;
-	animation: animatedBackground 40s linear infinite;
+.cd-time{
+	background: #5facb0;
 }
-@keyframes animatedBackground {
-	from { background-position: 0 0; }
-	to { background-position: 100% 0; }
-}
-#section2 a{
-	color:#fff;
-	text-decoration:none;
-}
-#section2 .col-xs-2{
-	width:20%;
-}
-#section4{
-	background-image:url(../content/banner/banner2.jpg);
-	background-size:cover;
-	color:#fff;
-	padding:100px 0;
-}
-#section4 h2{
-	margin:0 0 50px 0;
-}
-#section5{
-	padding:100px 0;
-}
-.boxfeature h3{
-	font-size:18px;
-	margin:0 0 20px 0;
-}
-.boxfeature p{
-	font-size:16px;
-}
-.boxfeature i{
-	width:100px; height:100px;
-	margin:0 auto 20px auto;
-	display:block;
-}
-.flexslider p{
-	margin:0;
-}
-#section3 .row{
-	position:relative;
-	overflow:hidden;
-}
-.nexus{
-	position:relative;
-	z-index:5;
-}
-.nexusphone{
-	width:346px; height:470px;
-	position:relative;
-}
-.embedvideo{
-	position:absolute;
-	top:35px; left:68px;
+.icon-time2:before{
+	font-size: 30px;
+	display: inline-block;
+	vertical-align: top;
+	width: 60px; height: 60px;
+	line-height: 60px;
+	text-align: center;
+	color: #fff;
 }
 /* ================= THUMBNAIL  ==================== */
 .thumb {
@@ -324,24 +222,76 @@ body{
 	max-width:350px; height:auto;
 	margin:0 auto;
 }
-/* ================= POST LIST  ==================== */
+.thumb{
+	width: 165px; height: 165px;
+	margin: 0 auto;
+}
+/* ================= SKILL ==================== */
+
+#skill {
+	position: relative;
+	margin: 0 auto;
+}
+.skillbox{
+	width: 20%;
+	float: left;
+}
+.skillbox h3{
+	margin: 0 0 20px 0;
+}
+.counterbox {
+	margin:0 auto;
+}
+.counter {
+	font-size:40px;
+	font-weight:700;
+}
+.countertext {
+	font-size:18px;
+	display:block;
+}
+.circleicon {
+    border: solid 2px;
+    text-align: center;
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    margin: 0;
+    overflow: hidden;
+}
+.circleicon:before {
+    display: inline-block;
+    width: 90px;
+    height: 100px;
+    text-align: center;
+    font-size: 50px;
+    vertical-align: top;
+    line-height: 100px;
+}
+.big-icon {
+    font-size: 70px;
+    display: inline-block;
+    margin: 0 0 20px 0;
+}
+
 /* ================= BUTTON  ==================== */
 .button{
 	display:inline-block;
 	border:none;
 	padding:0 30px;
 	line-height:50px;
-	background:#1695e1;
+	background: none;
 	color:#fff;
 	text-decoration:none;
 	min-width:180px;
 	text-align:center;
 	position:relative;
-	border-radius:10px;
+	border: solid 2px #fff;
 	font-size:18px;
+	margin: 20px;
 }
 .button:hover{
-	background:#005e97;
+	background:#263839;
 	color:#fff;
 }
 .row-btn{
@@ -431,52 +381,4 @@ form{
 #footer a{
 	color:#333;
 	font-weight:300;
-}
-#footer span:before{
-	width:40px; height:40px; line-height:40px;
-	text-align:center;
-	color:#fff;
-	border-radius:100px;
-	display:inline-block;
-	vertical-align:top;
-	
-}
-#footer span.icon-facebook:before{
-	background:#2e6dae;
-}
-#footer span.icon-twitter:before{
-	background:#13beef;
-}
-#footer a:hover span:before{
-	background:#464a4d;
-}
-.backtop{
-	position:absolute;
-	background:#444;
-	color:#fff;
-	text-align:center;
-	width:50px;
-	top:-90px;
-	right:0;
-	height:60px;
-	padding:10px 0;
-}
-.backtop i{
-	display:block;
-	margin:0 0 5px 0;
-}
-.footertop{
-	background:#f3f3f3;
-	color:#333;
-	padding:40px 0;
-}
-.footerbottom{
-	background:#131212;
-	text-align:center;
-	padding:20px 0;
-	color:#fff;
-}
-#footer .footerbottom p{
-	margin:0;
-	font-size:12px;
 }

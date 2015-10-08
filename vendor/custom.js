@@ -19,13 +19,21 @@ $(document).ready(function() {
       });
 });
 jQuery(document).ready(function($){
+	$(window).stellar();
+	$('.counter').counterUp({
+		delay: 10,
+		time: 5000
+	});
+	  $(".rotate").Morphext({
+		animation: 'flipInX'
+	  });
+	$('a.pentagon').click(function(){
+		$("html, body").animate({ scrollTop: 0 }, 2000);
+		return false;
+	 });
 	var timelineBlocks = $('.cd-timeline-block'),
 		offset = 0.8;
-
-	//hide timeline blocks which are outside the viewport
 	hideBlocks(timelineBlocks, offset);
-
-	//on scolling, show/animate timeline blocks when enter the viewport
 	$(window).on('scroll', function(){
 		(!window.requestAnimationFrame) 
 			? setTimeout(function(){ showBlocks(timelineBlocks, offset); }, 100)
@@ -43,4 +51,16 @@ jQuery(document).ready(function($){
 			( $(this).offset().top <= $(window).scrollTop()+$(window).height()*offset && $(this).find('.cd-timeline-img').hasClass('is-hidden') ) && $(this).find('.cd-timeline-img, .cd-timeline-content').removeClass('is-hidden').addClass('bounce-in');
 		});
 	}
+});
+	  
+$(window).load(function() {
+	wow = new WOW(
+	{
+	  boxClass:     'wow',      // default
+	  animateClass: 'animated', // default
+	  offset:       0,          // default
+	  mobile:       true,       // default
+	  live:         true        // default
+	})
+	wow.init();
 });
