@@ -89,7 +89,7 @@ a:hover,a:active,a:focus{
 body{
 	font-weight: 400;
 	font-size: 14px;
-	color: #303e49;
+	color: #555;
 }
 .section{
 	padding:80px 0;
@@ -100,9 +100,13 @@ body{
 	overflow:hidden;
 }
 /* ========================= HEADER ========================= */
+#paralax{
+	background-color: #484848;
+	overflow: hidden;
+}
 #header{
 	overflow:hidden;
-	background:url(../images/bg_header.jpg) no-repeat;
+	background:url(../images/bg_header2.jpg) no-repeat;
 	background-size:cover;
 }
 .headerbar{
@@ -115,6 +119,7 @@ body{
 	text-align:center;
 	width:100%;
 	left:0;
+	z-index: 10;
 }
 .headercontent h1{	
 	font-weight:600;
@@ -139,12 +144,12 @@ body{
 	
 }
 .social a:hover i:before{
-	background:#263839;
+	background:#333;
 	color: #fff;
 }
 /* ========================= CONTENT ========================= */
 .entry{
-	padding:40px 0;
+	padding:30px;
 }
 .the-title{
 	font-size: 40px;
@@ -158,10 +163,11 @@ body{
 	text-align: center;
 }
 #experience{
-	background: #bbcdcd;
+	background: #000;
+	color: #fff;
 }
 .cd-time{
-	background: #5facb0;
+	background: #444;
 }
 .icon-time2:before{
 	font-size: 30px;
@@ -192,13 +198,6 @@ body{
    -ms-transition: all 0.2s linear;
    transition: all 0.2s linear;
 }
-.thumb:hover img {
-   -webkit-transform: scale(1.1,1.1);
-   -moz-transform: scale(1.1,1.1);
-   -o-transform: scale(1.1,1.1);
-   -ms-transform: scale(1.1,1.1);
-   transform: scale(1.1,1.1);
-}
 .thumbs img{
 	width:100%;
 }
@@ -222,33 +221,80 @@ body{
 	max-width:350px; height:auto;
 	margin:0 auto;
 }
-.thumb{
+.avatar{
 	width: 165px; height: 165px;
 	margin: 0 auto;
 }
 /* ================= SKILL ==================== */
 
-#skill {
-	position: relative;
-	margin: 0 auto;
+.progress {
+	background:#e9e5e2;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#dddddd), to(#e9e5e2));
+	background-image: -webkit-linear-gradient(top, #dddddd, #e9e5e2);
+	background-image: -moz-linear-gradient(top, #dddddd, #e9e5e2);
+	background-image: -ms-linear-gradient(top, #dddddd, #e9e5e2);
+	background-image: -o-linear-gradient(top, #dddddd, #e9e5e2);
+	background-image: linear-gradient(top, #dddddd, #e9e5e2);  
+	height:10px; 
+	border-radius: 10px;
+	-moz-box-shadow: 0 1px 0px #bebbb9 inset, 0 1px 0 #fcfcfc;	 
+	-webkit-box-shadow: 0 1px 0px #bebbb9 inset, 0 1px 0 #fcfcfc;	 
+	box-shadow: 0 1px 0px #bbbbbb inset, 0 1px 0 #fcfcfc;	  
 }
-.skillbox{
-	width: 20%;
-	float: left;
+.progress-bar{
+	background: #2baad9;
+	width: 0%;
+ -webkit-transition: width 4.50s ease !important;
+ -moz-transition: width 4.50s ease !important;
+   -o-transition: width 4.50s ease !important;
+      transition: width 4.50s ease !important;
+ }
+ #skill li{
+ 	position: relative;
 }
-.skillbox h3{
-	margin: 0 0 20px 0;
+#skill h3 span,#skill h3 i:before{
+	display: inline-block;
+	line-height: 35px;
+}
+.skillname{
+	font-weight: 300;
+	font-size: 16px;	
 }
 .counterbox {
 	margin:0 auto;
 }
 .counter {
-	font-size:40px;
-	font-weight:700;
+	font-size:16px;
+	position: absolute;
+	right: 14px;
+}
+.percent{
+	position: absolute;
+	right: 0;
+	font-weight: 300;
+	font-size: 14px;
 }
 .countertext {
 	font-size:18px;
 	display:block;
+}
+#services {
+	position: relative;
+	margin: 0 auto;
+}
+.servicesbox{
+	width: 25%;
+	float: left;
+	text-align: center;
+}
+.servicesbox h3{
+	margin: 0 0 20px 0;
+}
+.service-title{
+	display: block;
+	clear: both;
+	font-size: 18px;
+	font-weight: 700;
 }
 .circleicon {
     border: solid 2px;
@@ -291,15 +337,15 @@ body{
 	margin: 20px;
 }
 .button:hover{
-	background:#263839;
-	color:#fff;
+	color:#333;
+	border: solid 2px #333;
 }
 .row-btn{
 	clear:both;
 }
 .white-btn{
 	background:#fff;
-	color:#005e97;
+	color:#333;
 }
 .paging{
 	text-align:center;
@@ -317,18 +363,77 @@ body{
 	background:#213488;
 	color:#fff;
 }
-/* ================= TESTI  ==================== */
-#portfolio-demo .item{
-    background: #42bdc2;
-    padding: 30px 0px;
-    margin: 5px;
-    color: #FFF;
-    -webkit-border-radius: 3px;
-    -moz-border-radius: 3px;
-    border-radius: 3px;
-    text-align: center;
+/* ================= PORTFOLIO  ==================== */
+#portfolio .thumb img{
 }
+#portfolio .thumb{
+}
+#portfolio .row{
+	margin: 10px 0;
+}
+#portfolio .container{
+	max-width: 1000px;
+	margin: 0 auto;
+}
+#portfolio .col-md-4,#portfolio .col-md-8{
+	padding: 0 5px;
+}
+ #particles {
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 5;
+}
+.port-item{
+	overflow: hidden;
+	width: 100%;
+	max-height: 300px;
+	position: relative;
+}
+.port-item a{
+	display: block;
+	background: #000;
+}
+.port-item img{
+	width: 100%;
+	-webkit-filter: grayscale(100%);
+	-moz-filter: grayscale(100%);
+	-ms-filter: grayscale(100%);
+	-o-filter: grayscale(100%);
+	filter: grayscale(100%);
+	filter: url(../images/grayscale.svg); /* Firefox 4+ */
+	filter: gray; /* IE 6-9 */
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	-ms-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+	opacity: 0.7;
+}
+.port-item a:hover img{
+	-webkit-filter: grayscale(0%);
+	-moz-filter: grayscale(0%);
+	-ms-filter: grayscale(0%);
+	-o-filter: grayscale(0%);
+	filter: grayscale(0%);
+	filter: none; /* Firefox 4+ */
+	filter: none; /* IE 6-9 */
+	opacity: 1;
 
+}
+.port-item h3{
+	position: absolute;
+	bottom: 20px;
+	left: 20px;
+	color: #fff;
+	width: 100%;
+	text-align: left;
+}
+.port-item small{
+	display: block;
+	color: #fff;
+	font-weight: 300;
+}
 /* ================= FORM  ==================== */
 input[type=text],
 input[type=password],
@@ -337,14 +442,7 @@ input[type=number],textarea{
 	background:#fff;
 	border:none;
 	width:100%;
-	margin:0 0 30px 0;
-	padding:10px;
-}
-input[type=submit],button{
-	background:#fc7c15;
-	cursor:pointer;
-	border:none;
-	color:#fff;
+	margin:0 0 10px 0;
 	padding:10px;
 }
 label{

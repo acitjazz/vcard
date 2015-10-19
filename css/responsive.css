@@ -3,73 +3,17 @@ Theme Name: VCARD
 Author: Acit Jazz
 Version: 1.0
 */
-.slicknav_menu,#navmobile{
-	display:none;
-}
 @media (max-width: 1360px;) {
 	.container{ width:90%; margin:0 auto;}
 } 
 @media only screen and (max-width: 1024px) {
-	
-	#section3 .row:before{
-		left:-100px;
-	}
-	#section3 .row:after{
-		right:-100px;
+	#header{
+		background-size: cover;
 	}
 }
 @media only screen and (max-width: 800px) {
-	#section3 .row:before,#section3 .row:after{
-		display:none;
-	}
-	.logo{ text-align:center;}
-	.logo img{ max-width:300px; width:100%;}
-	#menu{ display:none;}
-	.slicknav_menu{
-		display:block;
-		background:none;
-		text-align:center;
-	}
-	#navmobile{ display:block;}
-	.slicknav_nav a.logohead{ display:none;}
-	.slicknav_btn{ background:none; display:inline-block; padding:0; float:right; margin:0 0;}
-	.slicknav_menu .slicknav_icon-bar{
-		background:#fff;
-		margin:5px 0;
-		width:40px; height:5px; border-radius:5px;
-	}
-	.slicknav_nav{ position:relative; top:30px; z-index:100; background:#000;}
-	.slicknav_nav a,.slicknav_nav .slicknav_row:hover{
-		background:#1695e1;
-		line-height:50px;
-		color:#fff;
-		font-weight:normal;
-		text-transform:uppercase;
-		font-size:20px;
-		text-align:left;
-		padding:5px 20px;
-		margin:0 0 2px 0;
-		border-radius:0;
-	}
-	.slicknav_nav .slicknav_row{ padding:5px 20px;}
-	.slicknav_nav ul{ margin:0;}
-	.slicknav_nav ul a{
-		background:#9e1518;
-	}
-	#section2 .col-xs-2{ width:100%;}
-	#footer .col-md-4{
-		padding:40px 20px;
-		overflow:hidden;
-		border-bottom:solid 1px #ddd;
-	}
-	.flexslider .slides > li{ padding:0 0 40px 0;}
 }
 @media (max-width: 600px) {
-	.headercontent h1{ font-size:40px;}
-	#section1{ text-align:center;}
-	.nexusphone{ float:none; margin:0 auto;}
-	#section1 .entry,#section3 .entry{ text-align:center;}
-	.section,#section4{ padding:40px 20px;}
 }
 @media (max-width: 375px){
 }

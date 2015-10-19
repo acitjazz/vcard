@@ -34,9 +34,11 @@
     	<?php  include("footer.php"); ?>
         <script src="vendor/waypoints.min.js"></script>
 		<script src="vendor/wowanimate/wow.js"></script>
+        <script src="vendor/morphext/morphext.min.js"></script>
         <script src="vendor/owlcarousel/owl.carousel.min.js"></script>
         <script src="vendor/counterUp/jquery.counterup.js" type="text/javascript"></script>
         <script src="vendor/jquery.stellar.js"></script>
+        <script src="vendor/parallax.js"></script>
 		<script src="vendor/custom.js"></script>
     </body>
 </html>

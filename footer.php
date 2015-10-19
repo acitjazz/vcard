@@ -145,30 +145,30 @@
                                     <fieldset>
                                         <div class="rows">
                                             <input type="text" placeholder="Your Name" value="" id="yourname" name="yourname"/>
+                                            <div id='name_error' class='error'> Please enter your name</div>
                                         </div>
-                                        <div id='name_error' class='error'> Please enter your name</div>
                                         <div class="rows">
                                             <input type="text" placeholder="Company" value="" id="company" name="company"/>
+                                            <div id='company_error' class='error'> Please enter your Company</div>
                                         </div>
-                                        <div id='company_error' class='error'> Please enter your Company</div>
                                         <div class="rows">
                                             <input type="text" placeholder="Email" value="" id="youremail" name="youremail"/>
+                                            <div id='email_error' class='error'> Please enter your email correctly</div>
                                         </div>
-                                        <div id='email_error' class='error'> Please enter your email correctly</div>
                                         <div class="rows">
                                             <input type="text" placeholder="Subject" value="" id="subject" name="subject"/>
+                                            <div id='subject_error' class='error'> Please enter your Subject</div>
                                         </div>
-                                        <div id='subject_error' class='error'> Please enter your Subject</div>
                                         <div class="rows">
                                             <textarea placeholder="Message"  id="message" name="message"></textarea>
+                                            <div id='message_error' class='error'> Please enter your Message</div>
                                         </div>
-                                        <div id='message_error' class='error'> Please enter your Message</div>
                                         <div class="rows">
                                             <script type="text/javascript">DrawBotBoot()</script>
+                                            <div id='BotBootInput_error' class='error'> Anda salah memasukan nilai</div>
                                         </div>
-                                        <div id='BotBootInput_error' class='error'> Anda salah memasukan nilai</div>
                                         <div class="rows center">
-                                            <input class="button button_arrow" id='send_message_careers' type="submit" value="SUBMIT"/>
+                                            <input class="button" id='send_message_careers' type="submit" value="SUBMIT"/>
                                             <input type="hidden" name="sendCV" value="sendCV"/>
                                         </div>
                                     </fieldset>
