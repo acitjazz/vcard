@@ -99,6 +99,10 @@ body{
 	padding:40px 0 0 0;
 	overflow:hidden;
 }
+#about,#portfolio{
+	background: #f2f2f2;
+	background: url(../images/noisy.png) repeat;
+}
 /* ========================= HEADER ========================= */
 #paralax{
 	background-color: #484848;
@@ -239,7 +243,10 @@ body{
 	border-radius: 10px;
 	-moz-box-shadow: 0 1px 0px #bebbb9 inset, 0 1px 0 #fcfcfc;	 
 	-webkit-box-shadow: 0 1px 0px #bebbb9 inset, 0 1px 0 #fcfcfc;	 
-	box-shadow: 0 1px 0px #bbbbbb inset, 0 1px 0 #fcfcfc;	  
+	box-shadow: 0 1px 0px #bbbbbb inset, 0 1px 0 #fcfcfc;	 
+	float: left;
+	width: 60%; 
+	margin: 15px 0;
 }
 .progress-bar{
 	background: #2baad9;
@@ -251,10 +258,18 @@ body{
  }
  #skill li{
  	position: relative;
+ 	clear: both;
+}
+#skill h3{
+	float: left;	
+	width: 40%;
 }
 #skill h3 span,#skill h3 i:before{
 	display: inline-block;
 	line-height: 35px;
+}
+#skill h3 span.counter,#skill h3 span.percent{
+	display: none;
 }
 .skillname{
 	font-weight: 300;

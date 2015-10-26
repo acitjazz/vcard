@@ -92,8 +92,10 @@
          <div class="container center">
             <div class="center-title">
                 <h2 class="the-title">What I do?</h2>
-                <p>To go along with my design skills, my toolbox is filled with acronyms you might be afraid of such as HTML5, CSS3, jQuery and SCSS. I love to see new standards appear and mature allowing the creation of new websites, each one more advanced and amazing than the previous. 
-            </p>
+                <p>To go along with my design skills, my toolbox is filled with acronyms you might be afraid of such as HTML5, CSS3, 
+                    jQuery and SCSS. I love to see new standards appear and mature allowing the creation of new websites, each one more advanced and amazing than the previous. 
+                 </p>
+            </div>
         </div>
         <div class="row show-grid">
             <div class="col-md-12">
@@ -129,9 +131,9 @@
             <h2 class="the-title">Lates Work</h2>
             <p>To go along with my design skills, my toolbox is filled with acronyms you might be afraid of such as HTML5, CSS3, jQuery and SCSS. I love to see new standards appear and mature allowing the creation of new websites, each one more advanced and amazing than the previous. 
         </p>
-    </div>
+        </div>
         <div class="row">
-            <div class="col-md-8">
+            <div class="col-md-8 wow bounceInLeft" data-wow-duration="2s" data-wow-delay="0.2s">
                 <div class="port-item">
                     <a href="#">
                         <img src="content/portfolio/apif.png">
@@ -139,7 +141,7 @@
                     </a>
                 </div>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-4 wow bounceInRight" data-wow-duration="2s" data-wow-delay="0.2s">
                 <div class="port-item">
                     <a href="#">
                         <img src="content/portfolio/chatterbox.png">
@@ -149,7 +151,7 @@
             </div>
         </div><!-- END .row -->
         <div class="row">
-            <div class="col-md-4">
+            <div class="col-md-4 wow bounceInLeft" data-wow-duration="2s" data-wow-delay="0.2s">
                 <div class="port-item">
                     <a href="#">
                         <img src="content/portfolio/stra.png">
@@ -157,7 +159,7 @@
                     </a>
                 </div>
             </div>
-            <div class="col-md-8">
+            <div class="col-md-8 wow bounceInRight" data-wow-duration="2s" data-wow-delay="0.2s">
                 <div class="port-item">
                     <a href="#">
                         <img src="content/portfolio/koni.png">
@@ -167,7 +169,7 @@
             </div>
         </div><!-- END .row -->
         <div class="row">
-            <div class="col-md-4">
+            <div class="col-md-4 wow fadeInUp" data-wow-duration="2s" data-wow-delay="0.2s">
                 <div class="port-item">
                     <a href="#">
                         <img src="content/portfolio/citos.png">
@@ -175,7 +177,7 @@
                     </a>
                 </div>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-4 wow fadeInUp" data-wow-duration="2s" data-wow-delay="0.2s">
                 <div class="port-item">
                     <a href="#">
                         <img src="content/portfolio/coolant.png">
@@ -183,7 +185,7 @@
                     </a>
                 </div>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-4 wow fadeInUp" data-wow-duration="2s" data-wow-delay="0.2s">
                 <div class="port-item">
                     <a href="#">
                         <img src="content/portfolio/nivea.png">
@@ -262,4 +264,4 @@
         </div> <!-- cd-timeline-block -->
 
     </section> <!-- cd-timeline -->
-</section> <!-- #experience -->
+</div> <!-- #experience -->
