@@ -103,22 +103,22 @@
                     <div class="servicesbox">
                         <i class="icon-html5  big-icon wow bounceInDown circleicon" data-wow-delay="1s">&nbsp;</i>
                         <span class="service-title">Web Design</span>
-                        <p>Designing for the web is not a job it's a lifestyle. As technology changes so does the challenge.</p>
+                        <p>The number of web-accessible devices is truly a wonder of our information age. This can be a daunting canvas for design without a responsive approach.</p>
                     </div>
                     <div class="servicesbox">
                         <i class="icon-css3  big-icon wow bounceInDown circleicon" data-wow-delay="1.2s">&nbsp;</i>
                         <span class="service-title">Frontend Development</span>
-                        <p>Designing for the web is not a job it's a lifestyle. As technology changes so does the challenge.</p>
+                        <p>Static design mock-ups may look pretty, but you can’t experience interaction or performance in Photoshop. I work in iterations of design, prototype, test and review — no decisions are made away from the browser.</p>
                     </div>
                     <div class="servicesbox">
                         <i class="icon-coffee2  big-icon wow bounceInDown circleicon" data-wow-delay="1.5s">&nbsp;</i>
-                        <span class="service-title">Web Development</span>
+                        <span class="service-title">PSD to HTML</span>
                         <p>Designing for the web is not a job it's a lifestyle. As technology changes so does the challenge.</p>
                     </div>
                     <div class="servicesbox">
                         <i class="icon-wordpress  big-icon wow bounceInDown circleicon" data-wow-delay="1.8s">&nbsp;</i>
                         <span class="service-title">Wordpress Themes</span>
-                        <p>Designing for the web is not a job it's a lifestyle. As technology changes so does the challenge.</p>
+                        <p>What use is a website if you can’t update it? I’m a huge fan of short and frequent projects. Without a content management system that can be difficult.</p>
                     </div>
                 </div>
             </div>
@@ -145,7 +145,7 @@
                 <div class="port-item">
                     <a href="#">
                         <img src="content/portfolio/chatterbox.png">
-                        <h3>CHATTERBOX <small>Restaurant Website</small></h3>
+                        <h3>LENOVO <small>#PHABforFun Groupfie</small></h3>
                     </a>
                 </div>
             </div>
@@ -173,7 +173,7 @@
                 <div class="port-item">
                     <a href="#">
                         <img src="content/portfolio/citos.png">
-                        <h3>TOWNSQUARE <small>Cilanda Townsquare Mobile Site</small></h3>
+                        <h3>TOWNSQUARE <small>Cilandak Townsquare Mobile Site</small></h3>
                     </a>
                 </div>
             </div>
@@ -198,9 +198,7 @@
 </div>  
 <div id="experience" class="section">
     <div class="center-title">
-        <h2 class="the-title">Work Experience</h2>
-        <p>To go along with my design skills, my toolbox is filled with acronyms you might be afraid of such as HTML5, CSS3, jQuery and SCSS. I love to see new standards appear and mature allowing the creation of new websites, each one more advanced and amazing than the previous. 
-    </p>
+        <h2 class="the-title">7 years of experence</h2>
     </div>
     <section id="cd-timeline" class="cd-container">
         <div class="cd-timeline-block">

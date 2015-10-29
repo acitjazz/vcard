@@ -159,6 +159,23 @@ body{
 	font-size: 40px;
 	font-weight:600;
 	margin:0 0 20px 0;
+	position: relative;
+	display: inline-block;
+	line-height: 40px;
+}
+.the-title:before,.the-title:after{
+	content: '<';
+	position:absolute;
+	left: -30px;
+	font-weight: 300;
+	font-size: 30px;
+	line-height: 45px;
+	display: inline-block;
+}
+.the-title:after{
+	content: '/>';
+	right: -40px;
+	left: auto;
 }
 .center-title{
 	padding:30px 0;
@@ -182,6 +199,7 @@ body{
 	text-align: center;
 	color: #fff;
 }
+
 /* ================= THUMBNAIL  ==================== */
 .thumb {
    overflow: hidden;
@@ -296,6 +314,7 @@ body{
 #services {
 	position: relative;
 	margin: 0 auto;
+	display: none;
 }
 .servicesbox{
 	width: 25%;
@@ -355,6 +374,14 @@ body{
 	color:#333;
 	border: solid 2px #333;
 }
+.btn-black{
+	color:#333;
+	border: solid 2px #333;
+}
+.btn-black:hover{
+	color:#cc6600;
+	border: solid 2px #cc6600;
+}
 .row-btn{
 	clear:both;
 }
@@ -379,6 +406,9 @@ body{
 	color:#fff;
 }
 /* ================= PORTFOLIO  ==================== */
+#portfolio{
+	background: #fff;
+}
 #portfolio .thumb img{
 }
 #portfolio .thumb{
@@ -450,6 +480,12 @@ body{
 	font-weight: 300;
 }
 /* ================= FORM  ==================== */
+#contact{
+	max-width: 500px;
+	margin: 0 auto;
+	padding: 50px 0;
+	text-align: center;
+}
 input[type=text],
 input[type=password],
 input[type=email],
@@ -459,6 +495,7 @@ input[type=number],textarea{
 	width:100%;
 	margin:0 0 10px 0;
 	padding:10px;
+	border: solid 2px #333;
 }
 label{
 	display:block;
@@ -467,15 +504,6 @@ label{
 form{
 	margin:30px 0;
 }
-.subscribe input[type=text]{
-	width:70%;
-	float:left;
-}
-.subscribe input[type=submit]{
-	width:30%;
-	float:left;
-}
-
 /* ================= FOOTER  ==================== */
 #footer{
 	font-size:16px;

@@ -6,8 +6,8 @@
                         <div class="careerForm">
                                 <div class="send">
                                 <?php
-                                if (isset($_POST['sendCV'])=="sendCV") {
-                                    $email_to = "chit.eureka@gmail.com,rambut@gmail.com ";
+                                if (isset($_POST['send'])=="send") {
+                                    $email_to = "chit.eureka@gmail.com ";
                                     $subject = $_POST['yourname'];
                                     
                                         $message = "
@@ -89,8 +89,8 @@
                                     function DrawBotBoot() {
                                         document.write("<input id='BotBootInput' placeholder='What is "+ a + " + " + b +" ?' type='text' maxlength='2' size='2'/>");
                                     }
-                                    $("#careers_form").ready(function(){
-                                        $('#send_message_careers').click(function(e){
+                                    $("#contact").ready(function(){
+                                        $('#send').click(function(e){
                                             e.preventDefault();
                                             var error = false;
                                             var name = $('#yourname').val();
@@ -136,12 +136,13 @@
                                             }
                                             
                                             if(error == false){
-                                                $("#careers_form").submit();
+                                                $("#contact").submit();
                                             }
                                         });
                                     });
                                 </script>
-                                <form class="submitcv" id="careers_form" method="POST" action="" enctype="multipart/form-data">
+                                <form class="contact" id="contact" method="POST" action="" enctype="multipart/form-data">
+                                    <h2 class="the-title">Hire me!</h2>
                                     <fieldset>
                                         <div class="rows">
                                             <input type="text" placeholder="Your Name" value="" id="yourname" name="yourname"/>
@@ -168,8 +169,8 @@
                                             <div id='BotBootInput_error' class='error'> Anda salah memasukan nilai</div>
                                         </div>
                                         <div class="rows center">
-                                            <input class="button" id='send_message_careers' type="submit" value="SUBMIT"/>
-                                            <input type="hidden" name="sendCV" value="sendCV"/>
+                                            <input class="button btn-black" id='send' type="submit" value="SUBMIT"/>
+                                            <input type="hidden" name="send" value="send"/>
                                         </div>
                                     </fieldset>
                                 </form>
