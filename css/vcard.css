@@ -99,9 +99,8 @@ body{
 	padding:40px 0 0 0;
 	overflow:hidden;
 }
-#about,#portfolio{
+#about{
 	background: #f2f2f2;
-	background: url(../images/noisy.png) repeat;
 }
 /* ========================= HEADER ========================= */
 #paralax{
@@ -157,11 +156,12 @@ body{
 }
 .the-title{
 	font-size: 40px;
-	font-weight:600;
+	font-weight:700;
 	margin:0 0 20px 0;
 	position: relative;
 	display: inline-block;
 	line-height: 40px;
+	text-transform: uppercase;
 }
 .the-title:before,.the-title:after{
 	content: '<';
@@ -171,6 +171,7 @@ body{
 	font-size: 30px;
 	line-height: 45px;
 	display: inline-block;
+	color: #999;
 }
 .the-title:after{
 	content: '/>';
@@ -179,7 +180,7 @@ body{
 }
 .center-title{
 	padding:30px 0;
-	max-width:1000px;
+	max-width:800px;
 	margin:0 auto;
 	text-align: center;
 }
@@ -407,7 +408,7 @@ body{
 }
 /* ================= PORTFOLIO  ==================== */
 #portfolio{
-	background: #fff;
+	background: url(../images/noisy.png) repeat;
 }
 #portfolio .thumb img{
 }
@@ -479,12 +480,19 @@ body{
 	color: #fff;
 	font-weight: 300;
 }
+.porto-carousel .port-item{
+	max-width: 313px;
+	margin: 0 auto;
+}
 /* ================= FORM  ==================== */
 #contact{
 	max-width: 500px;
 	margin: 0 auto;
 	padding: 50px 0;
 	text-align: center;
+}
+fieldset{
+	margin: 30px 0;
 }
 input[type=text],
 input[type=password],

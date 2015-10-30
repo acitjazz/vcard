@@ -62,6 +62,12 @@ jQuery(document).ready(function($){
 			( $(this).offset().top <= $(window).scrollTop()+$(window).height()*offset && $(this).find('.cd-timeline-img').hasClass('is-hidden') ) && $(this).find('.cd-timeline-img, .cd-timeline-content').removeClass('is-hidden').addClass('bounce-in');
 		});
 	}
+	$('.porto-carousel').owlCarousel({
+	    margin:10,
+	    loop:true,
+	    autoWidth:true,
+	    items:3
+	})
 });
 	  
 $(window).load(function() {
@@ -79,9 +85,7 @@ $(window).load(function() {
 (function($) {
 	$(document).ready(function() {
 
-		/*=================================
-		=            Particles            =
-		=================================*/
+		/*========= Particles =========*/
 
 		var $headerSizer, width, height, canvas, ctx, circles, animateHeader = true;
 

@@ -128,14 +128,14 @@
 <div id="portfolio" class="section">
      <div class="container center">
         <div class="center-title">
-            <h2 class="the-title">Lates Work</h2>
+            <h2 class="the-title">Portfolio</h2>
             <p>To go along with my design skills, my toolbox is filled with acronyms you might be afraid of such as HTML5, CSS3, jQuery and SCSS. I love to see new standards appear and mature allowing the creation of new websites, each one more advanced and amazing than the previous. 
         </p>
         </div>
         <div class="row">
             <div class="col-md-8 wow bounceInLeft" data-wow-duration="2s" data-wow-delay="0.2s">
                 <div class="port-item">
-                    <a href="#">
+                    <a href="http://apif.binfar.depkes.go.id/" target="_blank">
                         <img src="content/portfolio/apif.png">
                         <h3>APIF <small>Aplikasi Pemetaan Sarana Farmasi</small></h3>
                     </a>
@@ -143,8 +143,8 @@
             </div>
             <div class="col-md-4 wow bounceInRight" data-wow-duration="2s" data-wow-delay="0.2s">
                 <div class="port-item">
-                    <a href="#">
-                        <img src="content/portfolio/chatterbox.png">
+                    <a href="http://staging.eurekapage.com/lenovo" target="_blank">
+                        <img src="content/portfolio/lenovo.png">
                         <h3>LENOVO <small>#PHABforFun Groupfie</small></h3>
                     </a>
                 </div>
@@ -153,7 +153,7 @@
         <div class="row">
             <div class="col-md-4 wow bounceInLeft" data-wow-duration="2s" data-wow-delay="0.2s">
                 <div class="port-item">
-                    <a href="#">
+                    <a href="http://stra.depkes.go.id/" target="_blank">
                         <img src="content/portfolio/stra.png">
                         <h3>STRA <small>Aplikasi Surat Tanda Registrasi Apoteker</small></h3>
                     </a>
@@ -161,9 +161,9 @@
             </div>
             <div class="col-md-8 wow bounceInRight" data-wow-duration="2s" data-wow-delay="0.2s">
                 <div class="port-item">
-                    <a href="#">
+                    <a href="http://staging.eurekapage.com/koni" target="_blank">
                         <img src="content/portfolio/koni.png">
-                        <h3>KONI DKI JAKARTA<small>PON XVIII  Riau Official Site</small></h3>
+                        <h3>KONI DKI JAKARTA<small>PON XVIII  Riau Official Website</small></h3>
                     </a>
                 </div>
             </div>
@@ -171,7 +171,7 @@
         <div class="row">
             <div class="col-md-4 wow fadeInUp" data-wow-duration="2s" data-wow-delay="0.2s">
                 <div class="port-item">
-                    <a href="#">
+                    <a href="http://m.townsquare.co.id/html/" target="_blank">
                         <img src="content/portfolio/citos.png">
                         <h3>TOWNSQUARE <small>Cilandak Townsquare Mobile Site</small></h3>
                     </a>
@@ -179,7 +179,7 @@
             </div>
             <div class="col-md-4 wow fadeInUp" data-wow-duration="2s" data-wow-delay="0.2s">
                 <div class="port-item">
-                    <a href="#">
+                    <a href="http://staging.eurekapage.com/coolant" target="_blank">
                         <img src="content/portfolio/coolant.png">
                         <h3>COOLANT <small>Facebook Photo Contest</small></h3>
                     </a>
@@ -187,10 +187,110 @@
             </div>
             <div class="col-md-4 wow fadeInUp" data-wow-duration="2s" data-wow-delay="0.2s">
                 <div class="port-item">
-                    <a href="#">
+                    <a href="http://staging.eurekapage.com/NIVEA/" target="_blank">
                         <img src="content/portfolio/nivea.png">
                         <h3>NIVEA <small>Facebook Contest</small></h3>
                     </a>
+                </div>
+            </div>
+        </div><!-- END .row -->
+        <div class="row">
+            <div class="porto-carousel">
+                <div class="wow fadeInDown" data-wow-duration="2s" data-wow-delay="0.2s">
+                    <div class="port-item">
+                        <a href="http://staging.eurekapage.com/mitsubishi/" target="_blank">
+                            <img src="content/portfolio/mitsubishi.png">
+                            <h3>MITSUBISHI <small>Air Conditioner Website</small></h3>
+                        </a>
+                    </div>
+                </div>
+                <div class="wow fadeInDown" data-wow-duration="2s" data-wow-delay="0.2s">
+                    <div class="port-item">
+                        <a href="http://staging.eurekapage.com/rekeningponsel" target="_blank">
+                            <img src="content/portfolio/rekpon.png">
+                            <h3>CIMB NIAGA <small>Rekening Ponsel Promo Website</small></h3>
+                        </a>
+                    </div>
+                </div>
+                <div class="wow fadeInDown" data-wow-duration="2s" data-wow-delay="0.2s">
+                    <div class="port-item">
+                        <a href="http://staging.eurekapage.com/NIVEA/" target="_blank">
+                            <img src="content/portfolio/nassaschool.png">
+                            <h3>Nassa School <small>Website</small></h3>
+                        </a>
+                    </div>
+                </div>
+                <div>
+                    <div class="port-item">
+                        <a href="http://staging.eurekapage.com/moodis/" target="_blank">
+                            <img src="content/portfolio/moodisme.png">
+                            <h3>Moodisme <small>E-Commerce Website</small></h3>
+                        </a>
+                    </div>
+                </div>
+                <div>
+                    <div class="port-item">
+                        <a href="http://staging.eurekapage.com/emka/" target="_blank">
+                            <img src="content/portfolio/emka.png">
+                            <h3>EMKA Rekayasa Energi <small>Company Profile Website</small></h3>
+                        </a>
+                    </div>
+                </div>
+                <div>
+                    <div class="port-item">
+                        <a href="http://staging.eurekapage.com/carlabella/" target="_blank">
+                            <img src="content/portfolio/carlabella.png">
+                            <h3>Carlabella <small>Company Profile Website</small></h3>
+                        </a>
+                    </div>
+                </div>
+                <div>
+                    <div class="port-item">
+                        <a href="#">
+                            <img src="content/portfolio/chatterbox.png">
+                            <h3>Chatterbox <small>Profile Website</small></h3>
+                        </a>
+                    </div>
+                </div>
+                <div>
+                    <div class="port-item">
+                        <a href="http://dprimahotel.com/dprima-hotels-homepage/" target="_blank">
+                            <img src="content/portfolio/dprima.png">
+                            <h3>D'prima hotel <small>Profile Website</small></h3>
+                        </a>
+                    </div>
+                </div>
+                <div>
+                    <div class="port-item">
+                        <a href="http://gurita.my.id/new/" target="_blank">
+                            <img src="content/portfolio/gurita.png">
+                            <h3>Klip OS <small>Official Website</small></h3>
+                        </a>
+                    </div>
+                </div>
+                <div>
+                    <div class="port-item">
+                        <a href="#">
+                            <img src="content/portfolio/jakpro.png">
+                            <h3>JAKPRO <small>Company Profile Website</small></h3>
+                        </a>
+                    </div>
+                </div>
+                <div>
+                    <div class="port-item">
+                        <a href="#">
+                            <img src="content/portfolio/mci.png">
+                            <h3>MCI Advertising <small>Company Profile Website</small></h3>
+                        </a>
+                    </div>
+                </div>
+                <div>
+                    <div class="port-item">
+                        <a href="http://wastedrockers.com/" target="_blank">
+                            <img src="content/portfolio/wastedrocker.png">
+                            <h3>Wastedrockers <small>Music Blog</small></h3>
+                        </a>
+                    </div>
                 </div>
             </div>
         </div><!-- END .row -->
