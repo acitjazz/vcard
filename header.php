@@ -4,9 +4,10 @@
 		<div class="container" >     
 	        <div class="headercontent" id="headercontent" >
 	        	<div class="avatar thumb circles"><img src="images/photo.jpg" alt="abdul basith"/></div>
-				    <div class="center-title">
+				    <div class="center-title" >
 				        	<h1>Hello I'm Abdul Basith</h1>
-				        	<h3>UI/UX Designer & Front End Developer</h3>
+				        	<h3 class="splitText" id="matrix">UI/UX Designer & Front End Developer</h3>
+				        	<div id="quote">SplitText makes it easy to break apart the text in an HTML element so that each character, word, and/or line is wrapped in its own div tag.</div>
 				        	<div class="social">
 				        		<a href="https://www.facebook.com/acit.jazz" target="_blank"><i class="icon-facebook"></i></a>
 				        		<a href="https://twitter.com/acitjazz" target="_blank"><i class="icon-twitter"></i></a>

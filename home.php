@@ -8,11 +8,12 @@
                         <h2 class="the-title">
     Who I am</h2>
                     </div>
+
                             <p>My name is Abdul Basith, I'm a Indonesian UI/UX designer living in Tangerang Banten, fascinated by technology innovations, product branding and typography.</p>
                             <p>I offer my design skills to build awesome websites and mobile applications in line with the ambitions of their owners.</p>
 
     <p>What I love above all things is pushing the limits of ergonomics and conception without ever neglecting user experience. Let's work on great projects together.</p>
-                    
+
                 </div>
             </div>
             <div class="col-md-6 wow bounceInRight" data-wow-duration="2s" data-wow-delay="0.2s">
@@ -92,8 +93,8 @@
          <div class="container center">
             <div class="center-title">
                 <h2 class="the-title">What I do?</h2>
-                <p>To go along with my design skills, my toolbox is filled with acronyms you might be afraid of such as HTML5, CSS3, 
-                    jQuery and SCSS. I love to see new standards appear and mature allowing the creation of new websites, each one more advanced and amazing than the previous. 
+                <p>To go along with my design skills, my toolbox is filled with acronyms you might be afraid of such as HTML5, CSS3,
+                    jQuery and SCSS. I love to see new standards appear and mature allowing the creation of new websites, each one more advanced and amazing than the previous.
                  </p>
             </div>
         </div>
@@ -124,46 +125,54 @@
             </div>
         </div><!-- END .row -->
      </div> <!-- END .container -->
-</div>  
+</div>
 <div id="portfolio" class="section">
      <div class="container center">
         <div class="center-title">
             <h2 class="the-title">Portfolio</h2>
-            <p>To go along with my design skills, my toolbox is filled with acronyms you might be afraid of such as HTML5, CSS3, jQuery and SCSS. I love to see new standards appear and mature allowing the creation of new websites, each one more advanced and amazing than the previous. 
+            <p>To go along with my design skills, my toolbox is filled with acronyms you might be afraid of such as HTML5, CSS3, jQuery and SCSS. I love to see new standards appear and mature allowing the creation of new websites, each one more advanced and amazing than the previous.
         </p>
         </div>
         <div class="row">
             <div class="col-md-8 wow bounceInLeft" data-wow-duration="2s" data-wow-delay="0.2s">
                 <div class="port-item">
                     <a href="http://apif.binfar.depkes.go.id/" target="_blank">
-                        <img src="content/portfolio/apif.png">
-                        <h3>APIF <small>Aplikasi Pemetaan Sarana Farmasi</small></h3>
+                        <img src="content/portfolio/apif.png" alt="APIF">
+                        <h3>APIF (Aplikasi Pemetaan Sarana Farmasi)<small>Design, HTML Dashboard Template</small></h3>
                     </a>
                 </div>
             </div>
             <div class="col-md-4 wow bounceInRight" data-wow-duration="2s" data-wow-delay="0.2s">
                 <div class="port-item">
-                    <a href="http://staging.eurekapage.com/lenovo" target="_blank">
-                        <img src="content/portfolio/lenovo.png">
-                        <h3>LENOVO <small>#PHABforFun Groupfie</small></h3>
+                    <a href="http://m.townsquare.co.id/html/" target="_blank">
+                        <img src="content/portfolio/citos.png" alt="Cilandak  Townsquare">
+                        <h3>Cilandak  Townsquare <small>Design,HTML Template, Mobile Site</small></h3>
                     </a>
                 </div>
             </div>
+ <!--            <div class="col-md-4 wow bounceInRight" data-wow-duration="2s" data-wow-delay="0.2s">
+                <div class="port-item">
+                    <a href="http://staging.eurekapage.com/lenovo" target="_blank">
+                        <img src="content/portfolio/lenovo.png" alt="LENOVO">
+                        <h3>LENOVO #PHABforFun Groupfie<small>HTML Template</small></h3>
+                    </a>
+                </div>
+            </div> -->
         </div><!-- END .row -->
         <div class="row">
             <div class="col-md-4 wow bounceInLeft" data-wow-duration="2s" data-wow-delay="0.2s">
                 <div class="port-item">
                     <a href="http://stra.depkes.go.id/" target="_blank">
-                        <img src="content/portfolio/stra.png">
-                        <h3>STRA <small>Aplikasi Surat Tanda Registrasi Apoteker</small></h3>
+                        <img src="content/portfolio/stra.png" alt="STRA">
+                        <h3>STRA <small>Design, HTML Dashboard Template</small></h3>
                     </a>
                 </div>
             </div>
             <div class="col-md-8 wow bounceInRight" data-wow-duration="2s" data-wow-delay="0.2s">
                 <div class="port-item">
                     <a href="http://staging.eurekapage.com/koni" target="_blank">
-                        <img src="content/portfolio/koni.png">
-                        <h3>KONI DKI JAKARTA<small>PON XVIII  Riau Official Website</small></h3>
+                        <img src="content/portfolio/koni.png" alt="KONI">
+                        <h3>KONI DKI JAKARTA PON XVIII  Riau<small>HTML Template</small></h3>
                     </a>
                 </div>
             </div>
@@ -171,131 +180,163 @@
         <div class="row">
             <div class="col-md-4 wow fadeInUp" data-wow-duration="2s" data-wow-delay="0.2s">
                 <div class="port-item">
-                    <a href="http://m.townsquare.co.id/html/" target="_blank">
-                        <img src="content/portfolio/citos.png">
-                        <h3>TOWNSQUARE <small>Cilandak Townsquare Mobile Site</small></h3>
+                    <a href="http://staging.eurekapage.com/rekeningponsel" target="_blank">
+                        <img src="content/portfolio/rekpon.png" alt="CIMB NIAGA">
+                        <h3>CIMB NIAGA Rekening Ponsel <small>Design, HTML Template</small></h3>
                     </a>
                 </div>
             </div>
             <div class="col-md-4 wow fadeInUp" data-wow-duration="2s" data-wow-delay="0.2s">
                 <div class="port-item">
                     <a href="http://staging.eurekapage.com/coolant" target="_blank">
-                        <img src="content/portfolio/coolant.png">
-                        <h3>COOLANT <small>Facebook Photo Contest</small></h3>
+                        <img src="content/portfolio/coolant.png" alt="COOLANT">
+                        <h3>COOLANT <small>Design, HTML Facebook Page</small></h3>
                     </a>
                 </div>
             </div>
-            <div class="col-md-4 wow fadeInUp" data-wow-duration="2s" data-wow-delay="0.2s">
+            <div class="col-md-4 wow fadeInDown" data-wow-duration="2s" data-wow-delay="0.2s">
+                <div class="port-item">
+                    <a href="http://staging.eurekapage.com/mitsubishi/" target="_blank">
+                        <img src="content/portfolio/mitsubishi.png" alt="MITSUBISHI">
+                        <h3>MITSUBISHI Air Conditioner <small>Design, HTML Template</small></h3>
+                    </a>
+                </div>
+            </div>
+            <!-- <div class="col-md-4 wow fadeInUp" data-wow-duration="2s" data-wow-delay="0.2s">
                 <div class="port-item">
                     <a href="http://staging.eurekapage.com/NIVEA/" target="_blank">
-                        <img src="content/portfolio/nivea.png">
-                        <h3>NIVEA <small>Facebook Contest</small></h3>
+                        <img src="content/portfolio/nivea.png" alt="NIVEA">
+                        <h3>NIVEA <small>HTML Facebook Page</small></h3>
                     </a>
                 </div>
-            </div>
+            </div> -->
         </div><!-- END .row -->
         <div class="row">
             <div class="porto-carousel">
                 <div class="wow fadeInDown" data-wow-duration="2s" data-wow-delay="0.2s">
                     <div class="port-item">
                         <a href="http://staging.eurekapage.com/mitsubishi/" target="_blank">
-                            <img src="content/portfolio/mitsubishi.png">
-                            <h3>MITSUBISHI <small>Air Conditioner Website</small></h3>
+                            <img src="content/portfolio/mitsubishi.png" alt="MITSUBISHI">
+                            <h3>MITSUBISHI Air Conditioner <small>Design, HTML Template</small></h3>
                         </a>
                     </div>
                 </div>
                 <div class="wow fadeInDown" data-wow-duration="2s" data-wow-delay="0.2s">
                     <div class="port-item">
-                        <a href="http://staging.eurekapage.com/rekeningponsel" target="_blank">
-                            <img src="content/portfolio/rekpon.png">
-                            <h3>CIMB NIAGA <small>Rekening Ponsel Promo Website</small></h3>
-                        </a>
-                    </div>
-                </div>
-                <div class="wow fadeInDown" data-wow-duration="2s" data-wow-delay="0.2s">
-                    <div class="port-item">
-                        <a href="http://staging.eurekapage.com/NIVEA/" target="_blank">
-                            <img src="content/portfolio/nassaschool.png">
-                            <h3>Nassa School <small>Website</small></h3>
+                        <a href="http://nassaschool.com/" target="_blank">
+                            <img src="content/portfolio/nassaschool.png" alt="Nassa School">
+                            <h3>Nassa School <small>Design, Wordpress Template</small></h3>
                         </a>
                     </div>
                 </div>
                 <div>
                     <div class="port-item">
                         <a href="http://staging.eurekapage.com/moodis/" target="_blank">
-                            <img src="content/portfolio/moodisme.png">
-                            <h3>Moodisme <small>E-Commerce Website</small></h3>
+                            <img src="content/portfolio/moodisme.png" alt="Moodisme">
+                            <h3>Moodisme <small>E-Commerce Opencart Template</small></h3>
                         </a>
                     </div>
                 </div>
                 <div>
                     <div class="port-item">
                         <a href="http://staging.eurekapage.com/emka/" target="_blank">
-                            <img src="content/portfolio/emka.png">
-                            <h3>EMKA Rekayasa Energi <small>Company Profile Website</small></h3>
+                            <img src="content/portfolio/emka.png" alt="EMKA">
+                            <h3>EMKA Rekayasa Energi <small>Design, Wordpress Template</small></h3>
                         </a>
                     </div>
                 </div>
                 <div>
                     <div class="port-item">
                         <a href="http://staging.eurekapage.com/carlabella/" target="_blank">
-                            <img src="content/portfolio/carlabella.png">
-                            <h3>Carlabella <small>Company Profile Website</small></h3>
+                            <img src="content/portfolio/carlabella.png" alt="Carlabella">
+                            <h3>Carlabella <small>Design, HTML Template</small></h3>
                         </a>
                     </div>
                 </div>
                 <div>
                     <div class="port-item">
                         <a href="#">
-                            <img src="content/portfolio/chatterbox.png">
-                            <h3>Chatterbox <small>Profile Website</small></h3>
+                            <img src="content/portfolio/chatterbox.png" alt="Chatterbox">
+                            <h3>Chatterbox <small>Design</small></h3>
                         </a>
                     </div>
                 </div>
                 <div>
                     <div class="port-item">
                         <a href="http://dprimahotel.com/dprima-hotels-homepage/" target="_blank">
-                            <img src="content/portfolio/dprima.png">
-                            <h3>D'prima hotel <small>Profile Website</small></h3>
+                            <img src="content/portfolio/dprima.png" alt="D'prima hotel">
+                            <h3>D'prima hotel <small>Design, Wordpress Template</small></h3>
                         </a>
                     </div>
                 </div>
                 <div>
                     <div class="port-item">
                         <a href="http://gurita.my.id/new/" target="_blank">
-                            <img src="content/portfolio/gurita.png">
-                            <h3>Klip OS <small>Official Website</small></h3>
+                            <img src="content/portfolio/gurita.png" alt="Klip OS">
+                            <h3>Klip OS <small>Design, Wordpress Template</small></h3>
                         </a>
                     </div>
                 </div>
                 <div>
                     <div class="port-item">
                         <a href="#">
-                            <img src="content/portfolio/jakpro.png">
-                            <h3>JAKPRO <small>Company Profile Website</small></h3>
+                            <img src="content/portfolio/jakpro.png" alt="JAKPRO">
+                            <h3>JAKPRO <small>Wordpress Template</small></h3>
+                        </a>
+                    </div>
+                </div>
+                <div>
+                    <div class="port-item">
+                        <a href="http://staging.eurekapage.com/vivawin/" target="_blank">
+                            <img src="content/portfolio/vivawin.png" alt="Vivawin">
+                            <h3>Vivawin <small>HTML Template</small></h3>
+                        </a>
+                    </div>
+                </div>
+                <div>
+                    <div class="port-item">
+                        <a href="http://staging.eurekapage.com/rickpelt/" target="_blank">
+                            <img src="content/portfolio/rickpelt.png" alt="Rickpelt">
+                            <h3>Rickpelt <small>HTML Template</small></h3>
+                        </a>
+                    </div>
+                </div>
+                <div>
+                    <div class="port-item">
+                        <a href="http://staging.eurekapage.com/caterig/" target="_blank">
+                            <img src="content/portfolio/caterig.png" alt="Caterig">
+                            <h3>Caterig <small>HTML Template</small></h3>
                         </a>
                     </div>
                 </div>
                 <div>
                     <div class="port-item">
                         <a href="#">
-                            <img src="content/portfolio/mci.png">
-                            <h3>MCI Advertising <small>Company Profile Website</small></h3>
+                            <img src="content/portfolio/mci.png" alt="MCI">
+                            <h3>MCI Advertising <small>Wordpress Company Profile</small></h3>
                         </a>
                     </div>
                 </div>
                 <div>
                     <div class="port-item">
-                        <a href="http://wastedrockers.com/" target="_blank">
-                            <img src="content/portfolio/wastedrocker.png">
-                            <h3>Wastedrockers <small>Music Blog</small></h3>
+                        <a href="http://staging.eurekapage.com/imsoup/" target="_blank">
+                            <img src="content/portfolio/imsoup.png" alt="IMSOUP">
+                            <h3>IMSOUP <small>Wordpress Blog</small></h3>
+                        </a>
+                    </div>
+                </div>
+                <div>
+                    <div class="port-item">
+                        <a href="http://staging.eurekapage.com/batikchick/" target="_blank">
+                            <img src="content/portfolio/batikchick.png" alt="Batik Chick">
+                            <h3>Batik Chick <small>Design, HTML E-Commerce Website</small></h3>
                         </a>
                     </div>
                 </div>
             </div>
         </div><!-- END .row -->
      </div> <!-- END .container -->
-</div>  
+</div>
 <div id="experience" class="section">
     <div class="center-title">
         <h2 class="the-title">7 years of experence</h2>
@@ -307,9 +348,9 @@
             </div> <!-- cd-timeline-img -->
 
             <div class="cd-timeline-content">
-                <h2>Senior Frontend Developer</h2>
+                <h2>Senior Web Developer</h2>
                 <p>PT Kana Cipta Media  |  Jakarta Raya, Indonesia.</p>
-                <span class="cd-date">Nov 2011 - Present </br> <small>3 years 11 months</small></span>
+                <span class="cd-date">Nov 2011 - Present <br/> <small>3 years 11 months</small></span>
             </div> <!-- cd-timeline-content -->
         </div> <!-- cd-timeline-block -->
 
@@ -319,9 +360,9 @@
             </div> <!-- cd-timeline-img -->
 
             <div class="cd-timeline-content">
-                <h2>Senior Frontend Developer</h2>
+                <h2>Senior Web Developer</h2>
                 <p>PT Glasprofmedia  |  Jakarta Raya, Indonesia.</p>
-                <span class="cd-date">May 2011 - Nov 2011 </br> <small>6 months</small></span>
+                <span class="cd-date">May 2011 - Nov 2011 <br/> <small>6 months</small></span>
             </div> <!-- cd-timeline-content -->
         </div> <!-- cd-timeline-block -->
 
@@ -333,7 +374,7 @@
             <div class="cd-timeline-content">
                 <h2>Web Developer</h2>
                 <p>PT SITTI Teknologi Indonesia  |  Jakarta Raya, Indonesia.</p>
-                <span class="cd-date">Jul 2010 - May 2011  </br> <small>10 months</small></span>
+                <span class="cd-date">Jul 2010 - May 2011  <br/> <small>10 months</small></span>
             </div> <!-- cd-timeline-content -->
         </div> <!-- cd-timeline-block -->
 
@@ -345,7 +386,7 @@
             <div class="cd-timeline-content">
                 <h2>Web Developer</h2>
                 <p>PT Kana Cipta Media  |  Jakarta Raya, Indonesia.</p>
-                <span class="cd-date">Jan 2009 - Jul 2010  </br> <small>1 year 6 months</small></span>
+                <span class="cd-date">Jan 2009 - Jul 2010  <br/> <small>1 year 6 months</small></span>
             </div> <!-- cd-timeline-content -->
         </div> <!-- cd-timeline-block -->
 
@@ -357,7 +398,7 @@
             <div class="cd-timeline-content">
                 <h2>Graphic Designer</h2>
                 <p>PT Ketano Global  |  Jakarta Raya, Indonesia.</p>
-                <span class="cd-date">Aug 2008 - Nov 2008   </br> <small>3 months</small></span>
+                <span class="cd-date">Aug 2008 - Nov 2008   <br/> <small>3 months</small></span>
             </div> <!-- cd-timeline-content -->
         </div> <!-- cd-timeline-block -->
 

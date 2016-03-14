@@ -47,40 +47,13 @@
                                         // More headers
                                         $headers .= 'From: <'.$_POST['youremail'].'>' . "\r\n";
                                         if(mail($email_to, $subject, $message, $headers)){
-                                            echo "<div class='overlays'><div class='messagebox'><h3>Terima Kasih, Kami akan segera mengubungi Anda.</h3></div></div>";
+                                            echo "<div class='overlays'><div class='messagebox'><h3>Thank you. I will contact you shortly</h3></div></div>";
                                         }else{
-                                            echo "<div class='overlays'><div class='messagebox'>Maaf pesan tidak berhasil terkirim, mohon coba beberapa saat lagi.</div></div>";
+                                            echo "<div class='overlays'><div class='messagebox'>Sorry, don't know what happened. Try later.</div></div>";
                                         }
                                 }
                                 ?> 
                                 </div>
-                                
-                                <style type='text/css'>
-                                #contact_form_holder { 
-                                    font-family: 'Verdana'; 
-                                    font-variant: small-caps; 
-                                    width:400px;
-                                }
-                                #contact_form_holder input, #contact_form_holder textarea { 
-                                    width:100%; /* make all the inputs and the textarea same size (100% of the div they are into) */ 
-                                    font-family:inherit; /* we must set this, because it doesn't inherits it */ 
-                                    padding:5px;
-                                }
-                                #contact_form_holder textarea { 
-                                    height:100px; /* i never liked small textareas, so make it 100px in height */ 
-                                }
-                                #cf_submit_p { text-align:right; } /* show the submit button aligned with the right side */
-                                
-                                .error { display: none; padding:10px; color: #D8000C; font-size:12px;background-color: #FFBABA; margin:0 0 10px 0;}
-                                .success { display: none; padding:10px; color: #044406; font-size:12px;background-color: #B7FBB9;}
-                                .sukses{ display:none;}
-                                
-                                #contact_logo { vertical-align: middle; }
-                                .error img { vertical-align:top; }
-                                .messagebox{ text-align:center; text-transform:uppercase; background:#f2f2f2; border:solid 1px #ddd; margin:30px 0; padding:40px;}
-                                .messagebox h3{ margin:0;}
-                                </style>
-                                
                                 <script type='text/javascript'>
                                     var a = Math.ceil(Math.random() * 10);
                                     var b = Math.ceil(Math.random() * 10);       

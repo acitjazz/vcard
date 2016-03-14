@@ -24,6 +24,12 @@ var scene = document.getElementById('paralax');
 var parallax = new Parallax(scene);
 
 jQuery(document).ready(function($){
+	$('a').click(function(){
+	    $('html, body').animate({
+	        scrollTop: $( $.attr(this, 'href') ).offset().top
+	    }, 800);
+	    return false;
+	});
 	  $('.webdesign').css('width', '90%');
 	  $('.html5').css('width', '95%');
 	  $('.css3').css('width', '100%');

@@ -12,8 +12,56 @@ Version: 1.0
 	}
 }
 @media only screen and (max-width: 800px) {
+	.port-item{
+		max-height:none;
+		margin: 0 0 30px 0;
+	}
+	.icon-time2:before{
+		width: 40px; height: 40px; line-height: 40px;
+	}
 }
 @media (max-width: 600px) {
+	.headercontent h1{
+		font-size: 20px;
+	}
+	.headercontent h3{
+		font-size: 14px;
+	}
+	.button{
+		padding: 0 10px;
+		margin: 0 10px;
+		line-height: 40px;
+		min-width: 120px;
+	}
+	.callaction{ padding: 0;}
+	.section{ padding: 20px 0;}
+	.the-title{
+		font-size: 20px;
+		margin: 0 0 10px 0 ;
+	}
+	.the-title:before, .the-title:after{
+		left: -20px;
+		font-size: 16px;
+		line-height: 40px;
+	}
+	.the-title:after{
+		right: -20px;
+		left: auto;
+	}
+	#skill h3,.progress{
+		width: 100%;
+		float: none;
+	}
+	fieldset{ margin: 0;}
+	fieldset .button{
+		margin: 30px 0 0 0;
+	}
+	.port-item h3{
+		font-size: 16px;
+	}
 }
 @media (max-width: 375px){
+	.porto-carousel .port-item{
+		max-width: 280px;
+	}
 }
